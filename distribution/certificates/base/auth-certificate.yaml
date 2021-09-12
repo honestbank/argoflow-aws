@@ -8,6 +8,6 @@ spec:
   issuerRef:
     name: gateways-issuer
     kind: ClusterIssuer
-  commonName: <<__subdomain_auth__>>.<<__domain__>>
+  commonName: auth.argoflow-aws.test.honestbank.com
   dnsNames:
-  - <<__subdomain_auth__>>.<<__domain__>>
+  - auth.argoflow-aws.test.honestbank.com
