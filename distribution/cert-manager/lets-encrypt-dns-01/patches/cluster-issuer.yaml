@@ -13,6 +13,6 @@ spec:
     solvers:
     - dns01:
         route53:
-          hostedZoneID: Z00075642VNR84VVEGLXK
+          hostedZoneID: Z08124261FBODBI77ZNVD
           region: ap-southeast-1
           role: arn:aws:iam::106256755710:role/cert_manager_role
