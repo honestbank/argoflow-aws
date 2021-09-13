@@ -169,7 +169,6 @@ metadata:
   namespace: my-username
 spec:
   backendType: secretsManager
-  roleArn: arn:aws:iam::123456789012:role/my-cluster-merge_external_secret_mlflow
   data:
   - key: my-cluster-merge/mlflow/rds_username
     name: RDS_USERNAME
