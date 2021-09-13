@@ -15,4 +15,4 @@ spec:
         route53:
           hostedZoneID: Z00075642VNR84VVEGLXK
           region: ap-southeast-1
-          # role: arn:aws:iam::106256755710:role/cert_manager_role
+          role: arn:aws:iam::106256755710:role/cert_manager_role
