@@ -12,7 +12,7 @@ spec:
     helm:
       parameters:
       - name: rbac.serviceAccount.annotations.eks\.amazonaws\.com/role-arn
-        value: arn:aws:iam::890123456789:role/kubeflow_kube-system_cluster-autoscaler
+        value: arn:aws:iam::106256755710:role/kubeflow-cluster-autoscaler-role
       - name: rbac.serviceAccount.create
         value: 'true'
       - name: rbac.create
