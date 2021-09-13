@@ -7,4 +7,5 @@ spec:
   template:
     spec:
       securityContext:
+        enabled: true
         fsGroup: 1001
