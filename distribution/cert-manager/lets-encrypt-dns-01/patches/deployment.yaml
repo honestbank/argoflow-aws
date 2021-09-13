@@ -7,5 +7,5 @@ spec:
   template:
     spec:
       securityContext:
-        enabled: true
+        runAsUser: 1001
         fsGroup: 1001
