@@ -18,7 +18,7 @@ spec:
         - name: SECRET_NAME_S3_SECRETKEY
           value: kubeflow/kubeflow/s3_secretkey-ec567a79
         - name: EXTERNAL_SECRET_ROLE_ARN
-          value: arn:aws:iam::106256755710:role/external_secrets_kubeflow_role
+          value: arn:aws:iam::106256755710:role/external_secrets_role
         - name: EXTERNAL_SECRET_BACKEND_TYPE
           value: secretsManager
 
