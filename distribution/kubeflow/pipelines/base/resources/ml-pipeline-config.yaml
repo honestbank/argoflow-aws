@@ -8,7 +8,7 @@ data:
   config.json: |
     {
       "DBConfig": {
-        "Host": ""terraform-20210912035910656200000001.ceayezvmaz7m.ap-southeast-1.rds.amazonaws.com"",
+        "Host": "terraform-20210912035910656200000001.ceayezvmaz7m.ap-southeast-1.rds.amazonaws.com",
         "Port": "3306",
         "DriverName": "mysql",
         "DataSourceName": "",
