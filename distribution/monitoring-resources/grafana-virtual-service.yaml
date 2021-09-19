@@ -7,7 +7,7 @@ spec:
   gateways:
   - monitoring-gateway
   hosts:
-  - <<__subdomain_grafana__>>.<<__domain__>>
+  - grafana.test.kubeflow.honestbank.com
   http:
   - route:
     - destination:
