@@ -14,7 +14,7 @@ spec:
       - name: serviceAccount.annotations.eks\.amazonaws\.com/role-arn
         value: arn:aws:iam::124994850539:role/aws_load_balancer_controller_role
       - name: clusterName
-        value: test-compute-vpc-eks-kubeflow
+        value: kf-b2c55abd
       - name: image.repository
         value: amazon/aws-alb-ingress-controller
       - name: vpcId

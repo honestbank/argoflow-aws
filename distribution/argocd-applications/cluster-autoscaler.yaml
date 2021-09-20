@@ -26,7 +26,7 @@ spec:
       - name: image.tag
         value: v1.20.0
       - name: autoDiscovery.clusterName
-        value: test-compute-vpc-eks-kubeflow
+        value: kf-b2c55abd
       - name: autoDiscovery.enabled
         value: 'true'
       - name: awsRegion
