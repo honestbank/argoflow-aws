@@ -14,9 +14,9 @@ spec:
         command: [python, /hooks/sync_with_s3.py]
         env:
         - name: SECRET_NAME_S3_ACCESSKEY
-          value: kubeflow/kubeflow/s3_accesskey-800e640d-P5dZim
+          value: kubeflow/kubeflow/s3_accesskey-800e640d
         - name: SECRET_NAME_S3_SECRETKEY
-          value: kubeflow/kubeflow/s3_secretkey-800e640d-RRCa7d
+          value: kubeflow/kubeflow/s3_secretkey-800e640d
         - name: EXTERNAL_SECRET_ROLE_ARN
           value: arn:aws:iam::124994850539:role/external_secrets_role
         - name: EXTERNAL_SECRET_BACKEND_TYPE
