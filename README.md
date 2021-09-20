@@ -42,3 +42,9 @@ following Secrets in AWS Secrets Manager:
 ### S3 Credentials
 
 A set of AWS IAM credentials are provided by the [kubeflow-infrastructure Terraform Cloud workspaces](https://app.terraform.io/app/honestbank/workspaces?tag=kubeflow).
+
+### DNS
+
+Add an NS record to the root `honestbank.com` Route 53 zone pointing to the nameservers
+of the zone created by the [kubeflow-infrastructure Terraform Cloud workspaces](https://app.terraform.io/app/honestbank/workspaces?tag=kubeflow).
+Look for the output named `kubeflow_route53_zone_nameservers`.
