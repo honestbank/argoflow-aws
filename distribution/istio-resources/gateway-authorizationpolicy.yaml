@@ -17,7 +17,7 @@ spec:
   - to:
     - operation:
         hosts:
-        - dashboard.test.kubeflow.honestbank.com
-        - kubecost.test.kubeflow.honestbank.com
-        - serving.test.kubeflow.honestbank.com
-        - '*.serving.test.kubeflow.honestbank.com'
+        - dashboard.kftest.honestbank.com
+        - kubecost.kftest.honestbank.com
+        - serving.kftest.honestbank.com
+        - '*.serving.kftest.honestbank.com'

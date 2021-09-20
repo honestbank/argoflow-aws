@@ -13,4 +13,4 @@ spec:
   - to:
     - operation:
         hosts:
-        - grafana.test.kubeflow.honestbank.com
+        - grafana.kftest.honestbank.com

@@ -34,11 +34,11 @@ spec:
       - name: cr.spec.istio_namespace
         value: istio-system
       # - name: cr.spec.deployment.override_ingress_yaml.spec.tls[0].hosts[0]
-      #   value: kiali.test.kubeflow.honestbank.com
+      #   value: kiali.kftest.honestbank.com
       # - name: cr.spec.deployment.override_ingress_yaml.spec.tls[0].secretName
       #   value: monitoring-ingressgateway-certs
       # - name: cr.spec.deployment.override_ingress_yaml.spec.rules[0].host
-      #   value: kiali.test.kubeflow.honestbank.com
+      #   value: kiali.kftest.honestbank.com
       # - name: cr.spec.deployment.override_ingress_yaml.spec.ingressClassName
       #   value: istio
       # - name: cr.spec.deployment.override_ingress_yaml.spec.rules[0].http.paths[0].path
@@ -62,7 +62,7 @@ spec:
       - name: cr.spec.external_services.grafana.auth.username
         value: admin
       - name: cr.spec.external_services.grafana.url
-        value: https://grafana.test.kubeflow.honestbank.com/grafana
+        value: https://grafana.kftest.honestbank.com/grafana
       - name: cr.spec.external_services.grafana.in_cluster_url
         value: http://kube-prometheus-stack-grafana.monitoring:80/grafana
       - name: cr.spec.external_services.grafana.dashboards[0].name

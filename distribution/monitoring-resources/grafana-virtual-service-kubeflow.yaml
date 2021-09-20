@@ -7,7 +7,7 @@ spec:
   gateways:
   - kubeflow/kubeflow-gateway
   hosts:
-  - dashboard.test.kubeflow.honestbank.com
+  - dashboard.kftest.honestbank.com
   http:
   - headers:
       request:

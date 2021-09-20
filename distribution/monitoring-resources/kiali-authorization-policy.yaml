@@ -13,4 +13,4 @@ spec:
   - to:
     - operation:
         hosts:
-        - kiali.test.kubeflow.honestbank.com
+        - kiali.kftest.honestbank.com

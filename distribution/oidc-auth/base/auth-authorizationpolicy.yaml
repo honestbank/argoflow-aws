@@ -14,11 +14,11 @@ spec:
   - to:
     - operation:
         hosts:
-        - auth.test.kubeflow.honestbank.com
-        - dashboard.test.kubeflow.honestbank.com   # needed for redirect after authentication
-        - serving.test.kubeflow.honestbank.com   # needed for redirect after authentication
-        - '*.serving.test.kubeflow.honestbank.com' # needed for redirect after authentication
-        - kubecost.test.kubeflow.honestbank.com # needed for redirect after authentication
+        - auth.kftest.honestbank.com
+        - dashboard.kftest.honestbank.com   # needed for redirect after authentication
+        - serving.kftest.honestbank.com   # needed for redirect after authentication
+        - '*.serving.kftest.honestbank.com' # needed for redirect after authentication
+        - kubecost.kftest.honestbank.com # needed for redirect after authentication
 ---
 apiVersion: security.istio.io/v1beta1
 kind: AuthorizationPolicy

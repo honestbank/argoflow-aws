@@ -8,7 +8,7 @@ spec:
     istio: ingressgateway
   servers:
   - hosts:
-    - auth.test.kubeflow.honestbank.com
+    - auth.kftest.honestbank.com
     port:
       name: http
       number: 80
@@ -17,7 +17,7 @@ spec:
     tls:
       httpsRedirect: true
   - hosts:
-    - auth.test.kubeflow.honestbank.com
+    - auth.kftest.honestbank.com
     port:
       name: https
       number: 443

@@ -8,6 +8,6 @@ spec:
   issuerRef:
     name: gateways-issuer
     kind: ClusterIssuer
-  commonName: auth.test.kubeflow.honestbank.com
+  commonName: auth.kftest.honestbank.com
   dnsNames:
-  - auth.test.kubeflow.honestbank.com
+  - auth.kftest.honestbank.com

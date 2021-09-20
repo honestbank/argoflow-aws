@@ -8,8 +8,8 @@ spec:
   issuerRef:
     name: gateways-issuer
     kind: ClusterIssuer
-  commonName: dashboard.test.kubeflow.honestbank.com
+  commonName: dashboard.kftest.honestbank.com
   dnsNames:
-  - dashboard.test.kubeflow.honestbank.com
-  - serving.test.kubeflow.honestbank.com
-  - "*.serving.test.kubeflow.honestbank.com"
+  - dashboard.kftest.honestbank.com
+  - serving.kftest.honestbank.com
+  - "*.serving.kftest.honestbank.com"

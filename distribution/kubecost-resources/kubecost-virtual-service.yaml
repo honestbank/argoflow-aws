@@ -7,7 +7,7 @@ spec:
   gateways:
   - monitoring-gateway
   hosts:
-  - kubecost.test.kubeflow.honestbank.com
+  - kubecost.kftest.honestbank.com
   http:
   - route:
     - destination:

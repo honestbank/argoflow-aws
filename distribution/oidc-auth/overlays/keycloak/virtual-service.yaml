@@ -9,7 +9,7 @@ spec:
   gateways:
   - auth-gateway
   hosts:
-  - auth.test.kubeflow.honestbank.com
+  - auth.kftest.honestbank.com
   http:
   - route:
     - destination:

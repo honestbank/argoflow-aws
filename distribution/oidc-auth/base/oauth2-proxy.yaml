@@ -40,9 +40,9 @@ spec:
       - name: extraArgs.skip-provider-button
         value: 'true'
       - name: extraArgs.cookie-domain
-        value: .test.kubeflow.honestbank.com
+        value: .kftest.honestbank.com
       - name: extraArgs.whitelist-domain
-        value: .test.kubeflow.honestbank.com
+        value: .kftest.honestbank.com
       - name: extraArgs.oidc-issuer-url
         value: https://accounts.google.com
       - name: extraArgs.scope

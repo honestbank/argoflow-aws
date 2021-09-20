@@ -74,8 +74,8 @@
             "clientAuthenticatorType": "client-secret",
             "secret": "",
             "redirectUris": [
-                "https://dashboard.test.kubeflow.honestbank.com",
-                "https://dashboard.test.kubeflow.honestbank.com/oauth2/callback"
+                "https://dashboard.kftest.honestbank.com",
+                "https://dashboard.kftest.honestbank.com/oauth2/callback"
             ],
             "webOrigins": []
         }

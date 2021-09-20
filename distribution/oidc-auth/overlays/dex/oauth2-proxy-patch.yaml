@@ -40,16 +40,16 @@ spec:
       - name: extraArgs.skip-provider-button
         value: 'true'
       - name: extraArgs.cookie-domain
-        value: .test.kubeflow.honestbank.com
+        value: .kftest.honestbank.com
       - name: extraArgs.whitelist-domain
-        value: .test.kubeflow.honestbank.com
+        value: .kftest.honestbank.com
       - name: extraArgs.oidc-issuer-url
-        value: https://auth.test.kubeflow.honestbank.com
+        value: https://auth.kftest.honestbank.com
       - name: extraArgs.login-url
-        value: https://auth.test.kubeflow.honestbank.com/auth
+        value: https://auth.kftest.honestbank.com/auth
       - name: extraArgs.oidc-jwks-url
-        value: https://auth.test.kubeflow.honestbank.com/keys
+        value: https://auth.kftest.honestbank.com/keys
       - name: extraArgs.redeem-url
-        value: https://auth.test.kubeflow.honestbank.com/token
+        value: https://auth.kftest.honestbank.com/token
       - name: extraArgs.skip-oidc-discovery
         value: 'true'

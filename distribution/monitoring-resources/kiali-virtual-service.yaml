@@ -7,7 +7,7 @@ spec:
   gateways:
   - monitoring-gateway
   hosts:
-  - kiali.test.kubeflow.honestbank.com
+  - kiali.kftest.honestbank.com
   http:
   - headers:
       request:

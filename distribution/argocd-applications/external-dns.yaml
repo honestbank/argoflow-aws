@@ -15,7 +15,7 @@ spec:
       - name: aws.region
         value: ap-southeast-1
       - name: domainFilters[0]
-        value: test.kubeflow.honestbank.com
+        value: kftest.honestbank.com
       - name: serviceAccount.create
         value: 'true'
       - name: rbac.create

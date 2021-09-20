@@ -28,7 +28,7 @@ spec:
       - name: global.grafana.domainName
         value: kube-prometheus-stack-grafana.monitoring.svc.cluster.local
       - name: kubecostProductConfigs.grafanaURL
-        value: https://grafana.test.kubeflow.honestbank.com/grafana
+        value: https://grafana.kftest.honestbank.com/grafana
       - name: grafana.sidecar.dashboards.enabled
         value: 'false'
         # Placing the dashboards into a folder is not working yet.

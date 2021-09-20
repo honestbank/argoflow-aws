@@ -7,7 +7,7 @@ spec:
   gateways:
   - kubeflow/kubeflow-gateway
   hosts:
-  - dashboard.test.kubeflow.honestbank.com
+  - dashboard.kftest.honestbank.com
   http:
   - match:
     - uri:
@@ -22,4 +22,4 @@ spec:
     headers:
       request:
         set:
-          X-Auth-Request-Redirect: https://auth.test.kubeflow.honestbank.com/auth/realms/kubeflow/protocol/openid-connect/logout?redirect_uri=https%%3A%%2F%%2Fdashboard.test.kubeflow.honestbank.com
+          X-Auth-Request-Redirect: https://auth.kftest.honestbank.com/auth/realms/kubeflow/protocol/openid-connect/logout?redirect_uri=https%%3A%%2F%%2Fdashboard.kftest.honestbank.com
