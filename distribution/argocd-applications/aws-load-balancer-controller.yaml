@@ -14,7 +14,7 @@ spec:
       - name: serviceAccount.annotations.eks\.amazonaws\.com/role-arn
         value: arn:aws:iam::124994850539:role/aws_load_balancer_controller_role
       - name: clusterName
-        value: kf-b2c55abd
+        value: kf-a83a8546
       - name: image.repository
         value: amazon/aws-alb-ingress-controller
       - name: vpcId
