@@ -15,5 +15,5 @@ spec:
   - to:
     - operation:
         hosts:
-        - <<__subdomain_serving__>>.<<__domain__>>
-        - '*.<<__subdomain_serving__>>.<<__domain__>>'
+        - serving.kfqa.honestbank.com
+        - '*.serving.kfqa.honestbank.com'

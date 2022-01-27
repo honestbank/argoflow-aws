@@ -17,7 +17,7 @@ spec:
   - to:
     - operation:
         hosts:
-        - <<__subdomain_dashboard__>>.<<__domain__>>
-        - <<__subdomain_kubecost__>>.<<__domain__>>
-        # - <<__subdomain_serving__>>.<<__domain__>>
-        # - '*.<<__subdomain_serving__>>.<<__domain__>>'
+        - dashboard.kfqa.honestbank.com
+        - kubecost.kfqa.honestbank.com
+        # - serving.kfqa.honestbank.com
+        # - '*.serving.kfqa.honestbank.com'
