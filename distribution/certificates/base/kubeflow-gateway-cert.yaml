@@ -8,8 +8,8 @@ spec:
   issuerRef:
     name: gateways-issuer
     kind: ClusterIssuer
-  commonName: <<__subdomain_dashboard__>>.<<__domain__>>
+  commonName: dashboard.kftest.honestbank.com
   dnsNames:
-  - <<__subdomain_dashboard__>>.<<__domain__>>
-  - <<__subdomain_serving__>>.<<__domain__>>
-  - "*.<<__subdomain_serving__>>.<<__domain__>>"
+  - dashboard.kftest.honestbank.com
+  - serving.kftest.honestbank.com
+  - "*.serving.kftest.honestbank.com"
