@@ -12,6 +12,6 @@ The IAM Role specified here will be attached to the default-editor ServiceAccoun
 
 This should be used in combination with the following setting:
 
-`<<__enable_registration_flow__>>="true"`
+`"true"="true"`
 
 NOTE that this offered here as a rudiementary but nevertheless effective way to use ArgoCD as a sort of Profile Controller. We are however also looking at how this can be made more sophisticated by extending the default Profile Controller to allow the declaration of arbitrary resources that should made available on each namespace.
