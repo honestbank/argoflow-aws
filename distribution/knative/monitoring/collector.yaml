@@ -42,6 +42,8 @@ spec:
       labels:
         app: otel-collector
     spec:
+      securityContext:
+        runAsNonRoot: true
       containers:
       - name: collector
         args:

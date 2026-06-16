@@ -68,7 +68,8 @@ spec:
       priorityClassName: system-node-critical
       restartPolicy: Always
       schedulerName: default-scheduler
-      securityContext: {}
+      securityContext:
+        runAsNonRoot: true
       serviceAccount: kube-proxy
       serviceAccountName: kube-proxy
       terminationGracePeriodSeconds: 30
