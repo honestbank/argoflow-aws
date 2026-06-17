@@ -70,6 +70,8 @@ spec:
       annotations:
         sidecar.istio.io/inject: 'false'
     spec:
+      securityContext:
+        runAsNonRoot: true
       containers:
       - name: create-mlflow-database
         image: public.ecr.aws/atcommons/utils/mysql-db-creator:latest
@@ -119,10 +121,11 @@ spec:
       labels:
         app: mlflow
     spec:
+      securityContext:
+        runAsNonRoot: true
       serviceAccountName: mlflow
       containers:
       - name: mlflow
-        securityContext: {}
         image: public.ecr.aws/atcommons/mlflow-server:1.18.0
         imagePullPolicy: Always
         resources:
