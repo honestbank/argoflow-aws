@@ -9,6 +9,7 @@ spec:
     spec:
       containers:
       - name: katib-db-manager
+        image: kubeflowkatib/katib-db-manager:v1beta1-9caa8bc@sha256:933c68496dd16a59cfae7f81c5253d384b4dbfe8ff1749be641aa06101aaa79c
         env:
         - name: DB_NAME
           value: mysql
