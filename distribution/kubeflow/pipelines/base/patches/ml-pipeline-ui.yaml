@@ -5,6 +5,8 @@ metadata:
 spec:
   template:
     spec:
+      securityContext:
+        runAsNonRoot: true
       containers:
       - name: ml-pipeline-ui
         env:
