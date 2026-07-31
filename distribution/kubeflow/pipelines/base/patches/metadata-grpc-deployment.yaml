@@ -5,6 +5,8 @@ metadata:
 spec:
   template:
     spec:
+      securityContext:
+        runAsNonRoot: true
       containers:
       - name: container
         image: gcr.io/tfx-oss-public/ml_metadata_store_server:1.14.0@sha256:e4657696d1aa0a1ea94c5830abb166d6abf4b0cf45859ab8a68aae352a2825f2

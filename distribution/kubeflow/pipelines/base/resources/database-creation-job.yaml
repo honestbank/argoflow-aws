@@ -10,6 +10,8 @@ spec:
       annotations:
         sidecar.istio.io/inject: 'false'
     spec:
+      securityContext:
+        runAsNonRoot: true
       containers:
       - name: create-cache-database
         image: public.ecr.aws/atcommons/utils/mysql-db-creator:latest
@@ -53,6 +55,8 @@ spec:
       annotations:
         sidecar.istio.io/inject: 'false'
     spec:
+      securityContext:
+        runAsNonRoot: true
       containers:
       - name: create-pipelines-database
         image: public.ecr.aws/atcommons/utils/mysql-db-creator:latest
@@ -96,6 +100,8 @@ spec:
       annotations:
         sidecar.istio.io/inject: 'false'
     spec:
+      securityContext:
+        runAsNonRoot: true
       containers:
       - name: create-metadata-database
         image: public.ecr.aws/atcommons/utils/mysql-db-creator:latest
