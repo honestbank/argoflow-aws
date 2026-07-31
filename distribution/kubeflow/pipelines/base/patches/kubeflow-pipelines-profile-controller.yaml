@@ -11,6 +11,7 @@ spec:
     spec:
       containers:
       - name: profile-controller
+        image: gcr.io/kubeflow-images-public/profile-controller:latest@sha256:c169b3ac81e4059a075abaebefceacae5241bb8f75cfbedacf5be11c9ef0b584
         command: [python, /hooks/sync_with_s3.py]
         env:
         - name: SECRET_NAME_S3_ACCESSKEY
